@@ -1,0 +1,152 @@
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media (max-width : 1200px) {
+    .principal h1 {
+        font-size: 60px;
+    }
+}
+
+
+
+/* Medium Devices, Desktops */
+@media (max-width : 991px) {
+    .encabezado {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .encabezado.fijo {
+        position: fixed;
+        background: rgb(24, 24, 24);
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    .encabezado_logo img {
+        height: 25px;
+    }
+
+    .encabezado-iconomovil {
+        display: flex;
+        color: white;
+        background: none;
+        border: none;
+        font-size: 16px;
+    }
+
+    .encabezado_menu {
+        display: none;
+    }
+
+    .principal h1 {
+        font-size: 40px;
+    }
+
+    .itemimage h2 {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .tarjetas-principal h2 {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .testimonial-principal h2 {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .suscribe h2 {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+
+/* Small Devices, Tablets */
+@media (max-width : 767px) {
+    .principal {
+        text-align: center;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-movil {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+    .search-tag .active-tag,
+    .search-tag a:hover {
+        color: white;
+    }
+
+    .search-tag {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-tag a {
+        color: rgb(29, 29, 29);
+        margin-bottom: 5px;
+        margin-right: 0;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-item {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .input button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .itemimage h2{
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .itemimage-item-2{
+        margin-bottom: 20px;
+    }
+
+    .agency-image{
+        position: relative;
+        top: initial;
+        left: initial;
+        right: initial;
+        bottom: initial;
+        height: 400px;
+    }
+    
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width : 480px) {}
+
+/* Custom, iPhone Retina */
+@media (max-width : 320px) {}
